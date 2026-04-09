@@ -1,0 +1,33 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.tabletmirror.app'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId "com.tabletmirror.app"
+        minSdk 19        // Android 4.4 KitKat (SGP312)
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+}
+
+dependencies {
+    // ユニットテスト (JVM 上で実行 / デバイス不要)
+    testImplementation 'junit:junit:4.13.2'
+}

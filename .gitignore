@@ -1,0 +1,50 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Xcode / Swift
+TabletMirror/build/
+TabletMirror/*.xcodeproj/xcuserdata/
+TabletMirror/*.xcodeproj/project.xcworkspace/xcuserdata/
+TabletMirror/*.xcworkspace/xcuserdata/
+TabletMirror/*.xcworkspace/xcshareddata/
+TabletMirror/DerivedData/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# Android / Gradle
+TabletMirrorAndroid/build/
+TabletMirrorAndroid/app/build/
+TabletMirrorAndroid/.gradle/
+TabletMirrorAndroid/local.properties
+TabletMirrorAndroid/*.apk
+TabletMirrorAndroid/*.aab
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
+# CocoaPods (Xcodeで使う場合)
+Pods/
+*.xcworkspace
+
+# Swift Package Manager
+.build/
+*.resolved
+
+# 証明書・秘密鍵
+*.p12
+*.cer
+*.mobileprovision
+*.provisionprofile
+ExportOptions.plist
